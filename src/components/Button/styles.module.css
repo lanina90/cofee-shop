@@ -1,0 +1,43 @@
+
+.link, .button {
+  background: transparent;
+  border-radius: 30px;
+  padding: 10px 15px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 1s ease;
+  max-height: 40px;
+}
+
+.primary {
+  color: #F8E4BE;
+  border: 1px solid #F7E1BC;
+}
+
+.primary:hover, .primary.active {
+  background: #e6c9bb;
+  color: whitesmoke;
+}
+
+.secondary {
+  background: #736363;
+  color: #FFFFFF;
+}
+
+.secondary:hover, .secondary.active {
+  background: #e6c9bb;
+  color: black;
+  border: 1px solid black;
+}
+
+.tertiary {
+  background: #e6c9bb;
+  border: 1px solid transparent;
+}
+
+
+.tertiary:hover, .tertiary.active {
+  background: #e6c9bb;
+  color: black;
+  border: 1px solid black;
+}

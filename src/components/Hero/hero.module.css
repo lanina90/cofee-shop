@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+.hero-wrapper {
+  height: 100vh;
+  max-height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/Rectangle-1.svg"), url("/Rectangle-2.svg"), url("/background.png");
+  background-position: top, bottom, center;
+  background-repeat: repeat-x, repeat-x, no-repeat;
+  background-size: auto 80%, auto 80%, cover;
+
+  @media screen and (min-width: 768px ) {
+    max-height: 100vh;
+  }
+}
+
+.hero-content{
+  font-weight: 700;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 16px;
+  color: #DABB9E;
+  max-width: 1200px;
+  width: 100%;
+}
+
+
+
+.hero-content-img{
+  width: 100%;
+}
+
+.hero-content-title{
+  max-width: 100%;
+  font-size: 32px;
+  font-weight: 600;
+
+  @media screen and (min-width: 768px ) {
+    font-size: 42px;
+  }
+}
+
+.hero-content-description{
+  margin-top: 10px;
+  font-size: 24px;
+  font-weight: 400;
+
+  @media screen and (min-width: 768px ) {
+    margin-top: 10px;
+  }
+
+}

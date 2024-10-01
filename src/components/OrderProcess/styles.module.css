@@ -1,0 +1,21 @@
+
+
+.ordering{
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px 20px;
+}
+
+.ordering-wrapper{
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ordering-info{
+  width: 100%;
+}

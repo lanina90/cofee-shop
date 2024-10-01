@@ -1,0 +1,32 @@
+
+
+.footer{
+  padding: 50px 20px;
+  background-color: #514444;
+  min-height: 400px;
+  color: white;
+  background-image: url("/Rectangle-1.svg");
+  background-repeat: repeat-x;
+  background-size: auto 80%;
+  background-position: 0 -5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-wrapper{
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+@media screen and (min-width: 768px) {
+  .footer-wrapper{
+    flex-direction: row;
+
+  }
+}
